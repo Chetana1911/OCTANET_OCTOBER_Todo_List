@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- For animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1 class="animated infinite pulse"><i class="fa-solid fa-clipboard-list"></i>Todo List App</h1>
+            <div class="row">
+                <input placeholder="Add a Task " class="add-task" id="add" />
+                <button id="btn" class="btn"><i class="fa-solid fa-plus"></i></button>
+            </div>
+
+            <span id="total-tasks">Total tasks:
+                <span id="tasks-counter">0</span>
+            </span>
+
+
+            <ul id="list" class="list">
+
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
